@@ -46,7 +46,8 @@ if [ -z "$MAVEN_SKIP_RC" ] ; then
 
 fi
 export JAVA_HOME="/usr/local/opt/openjdk/bin/java"
-
+echo '+++++++++++++++++'
+which java
 if [ -z "$JAVA_HOME" ] ; then
   if [ -r /etc/gentoo-release ] ; then
     JAVA_HOME=`java-config --jre-home`
