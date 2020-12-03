@@ -111,7 +111,7 @@ if [ -z "$JAVACMD" ] ; then
       JAVACMD="$JAVA_HOME/bin/java"
     fi
   else
-    JAVACMD="`which java`"
+    JAVACMD="/usr/local/opt/openjdk/bin/java/bin/java"
   fi
 fi
 
