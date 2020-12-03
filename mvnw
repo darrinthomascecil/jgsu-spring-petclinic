@@ -45,19 +45,7 @@ if [ -z "$MAVEN_SKIP_RC" ] ; then
   fi
 
 fi
-
-# OS specific support.  $var _must_ be set to either true or false.
-cygwin=false;
-darwin=false;
-mingw=false
-case "`uname`" in
-  CYGWIN*) cygwin=true ;;
-  MINGW*) mingw=true;;
-  Darwin*) darwin=true
-  
-        export JAVA_HOME="`/usr/local/opt/openjdk/bin/java`"
-     
-esac
+export JAVA_HOME="/usr/local/opt/openjdk/bin/java"
 
 if [ -z "$JAVA_HOME" ] ; then
   if [ -r /etc/gentoo-release ] ; then
