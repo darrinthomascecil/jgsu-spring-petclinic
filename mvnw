@@ -45,6 +45,7 @@ if [ -z "$MAVEN_SKIP_RC" ] ; then
   fi
 
 fi
+
 export JAVA_HOME="/usr/local/opt/openjdk/bin/java"
 echo '+++++++++++++++++'
 which java
